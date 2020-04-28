@@ -1,12 +1,13 @@
 # pixel_character_generator
  Generating retro pixel game characters with Generative Adversarial Networks. Dataset included.
  
- ![](data/1/111.png)  ![](data/2/111.png)  ![](data/3/111.png)  ![](data/0/111.png)
- ![](data/1/212.png)  ![](data/2/212.png)  ![](data/3/212.png)  ![](data/0/212.png)
- ![](data/1/333.png)  ![](data/2/333.png)  ![](data/3/333.png)  ![](data/0/333.png)
- ![](data/1/444.png)  ![](data/2/444.png)  ![](data/3/444.png)  ![](data/0/444.png)
- ![](data/1/555.png)  ![](data/2/555.png)  ![](data/3/555.png)  ![](data/0/555.png)
- ![](data/1/666.png)  ![](data/2/666.png)  ![](data/3/666.png)  ![](data/0/666.png)
+ ![](images/58.png)  ![](images/58 (2).png)  ![](images/58 (3).png)  ![](images/58 (4).png)
+ ![](images/212.png)  ![](images/212 (2).png)  ![](images/212 (3).png)  ![](images/212 (4).png)
+ ![](images/584.png)  ![](images/584 (2).png)  ![](images/584 (3).png)  ![](images/584 (4).png)
+
+ ![](images/111.png)  ![](images/111 (2).png)  ![](images/111 (3).png)  ![](images/111 (4).png)
+ ![](images/585.png)  ![](images/585 (2).png)  ![](images/585 (3).png)  ![](images/585 (4).png)
+ ![](images/586.png)  ![](images/586 (2).png)  ![](images/586 (3).png)  ![](images/586 (4).png)
 
  
  # Dataset
@@ -22,5 +23,5 @@ GNU GPL 3.0:
 http://www.gnu.org/licenses/gpl-3.0.html
 See the file: gpl-3.0.txt
 
-
- ![](data/1/123.png)  ![](data/2/123.png)  ![](data/3/123.png)  ![](data/0/123.png)
+ ![](images/587.png)  ![](images/587 (2).png)  ![](images/587 (3).png)  ![](images/587 (4).png)
+ ![](images/588.png)  ![](images/588 (2).png)  ![](images/588 (3).png)  ![](images/588 (4).png)
