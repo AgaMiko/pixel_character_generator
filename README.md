@@ -18,7 +18,7 @@ Dataset includes 64x64 retro-pixel character.All characters were generated with 
 
 | Image sixe | Dataset size  | Source          | Download |
 |------------|---------------|-----------------|----------|
-| 64x64      | 3648 images   | LPC Spritesheet | data.zip |
+| 64x64      | 3648 images   | [LPC Spritesheet](https://github.com/makrohn/Universal-LPC-spritesheet/tree/7040e2fe85d2cb1e8154ec5fce382589d369bdb8) [ | [data.zip](data.zip)|
 |            | 912 per class |                 |          |
 
 According to the rules of the LPC all art submissions were dual licensed under both GNU GPL 3.0 and CC-BY-SA 3.0. Further work produced in this repository is licensed under the same terms.
