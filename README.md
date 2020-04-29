@@ -11,9 +11,17 @@
 
  
  # Dataset
- Dataset includes 64x64 retro-pixel character. Each character was randomly generated including: sex, body type, skin color and equipment. Each character is viewed from 4 different angles. All characters were generated with [Universal LPC spritesheet by makrohn](https://github.com/makrohn/Universal-LPC-spritesheet/tree/7040e2fe85d2cb1e8154ec5fce382589d369bdb8)
  
- According to the rules of the LPC all art submissions were dual licensed under both GNU GPL 3.0 and CC-BY-SA 3.0. Further work produced in this repository is licensed under the same terms.
+ ![](images/random_chars.png)
+ 
+Dataset includes 64x64 retro-pixel character.All characters were generated with [Universal LPC spritesheet by makrohn](https://github.com/makrohn/Universal-LPC-spritesheet/tree/7040e2fe85d2cb1e8154ec5fce382589d369bdb8). Each character in the dataset was randomly generated including: sex, body type, skin color and equipment with LPC spritesheet with 4 different angles view. 
+
+| Image sixe | Dataset size  | Source          | Download |
+|------------|---------------|-----------------|----------|
+| 64x64      | 3648 images   | LPC Spritesheet | data.zip |
+|            | 912 per class |                 |          |
+
+According to the rules of the LPC all art submissions were dual licensed under both GNU GPL 3.0 and CC-BY-SA 3.0. Further work produced in this repository is licensed under the same terms.
 
 CC-BY-SA 3.0:
 http://creativecommons.org/licenses/by-sa/3.0/
@@ -25,3 +33,20 @@ See the file: gpl-3.0.txt
 
  ![](images/587.png)  ![](images/587_2.png)  ![](images/587_3.png)  ![](images/587_4.png)
  ![](images/588.png)  ![](images/588_2.png)  ![](images/588_3.png)  ![](images/588_4.png)
+ 
+# Pixel Character Generator - DCGAN
+Based on the DCGAN pytorch tutorial: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+
+  * Experimented with latent size (input for Generator) and feature map sizes 
+  * Added soft and noisy labels
+  * Added Wasserstein loss which is a good solution for mode collapse
+    * Wasserstein loss - https://developers.google.com/machine-learning/gan/loss
+    * mode collapse - https://machinelearningmastery.com/practical-guide-to-gan-failure-modes/
+  * Added dropout in both generator and discriminator
+
+* [DCGAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+* [Final notebook with modified DCGAN](https://github.com/AgaMiko/pixel_character_generator/blob/master/notebooks/3_DCGAN.ipynb)
+
+# Example results
+
+![](images/real_fake.png)
