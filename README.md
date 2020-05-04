@@ -47,6 +47,19 @@ Based on the DCGAN pytorch tutorial: https://pytorch.org/tutorials/beginner/dcga
 * [DCGAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
 * [Final notebook with modified DCGAN](https://github.com/AgaMiko/pixel_character_generator/blob/master/notebooks/3_DCGAN.ipynb)
 
-# Example results
+### Example results
 
 ![](images/real_fake.png)
+
+# Conditional DCGAN
+
+Conditional DCGAN that generates a pixel character seen from selected angle.
+
+* different learning rate for discriminator and generator
+* soft labels
+* added classification loss to the discriminator. Discriminator have to guess fake/real but also the character angle
+* generator is conditioned with embedding from trainable look-up table that gives the info about the character view angle
+
+![](images/CGAN.PNG)
+
+* [notebook with modified Conditional DCGAN](https://github.com/AgaMiko/pixel_character_generator/blob/master/notebooks/4_Conditional_DCGAN.ipynb)
