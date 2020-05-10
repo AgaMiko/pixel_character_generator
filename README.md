@@ -63,3 +63,11 @@ Conditional DCGAN that generates a pixel character seen from selected angle.
 ![](images/CGAN.PNG)
 
 * [notebook with modified Conditional DCGAN](https://github.com/AgaMiko/pixel_character_generator/blob/master/notebooks/4_Conditional_DCGAN.ipynb)
+
+# DC Autoencoder
+Deep convolutional autoencoder. This autoencoder have the same architecture as DCGAN above. The only difference is the additional fully-connected layer at the top of the encoder, which projects output from convolutional layer to selected latent size.
+
+![](images/DCAE.PNG)
+
+* [notebook with Deep Convolutional Autoencoder](notebooks/5_DC_Autoencoder.ipynb)
+
