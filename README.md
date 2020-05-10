@@ -67,7 +67,11 @@ Conditional DCGAN that generates a pixel character seen from selected angle.
 # DC Autoencoder
 Deep convolutional autoencoder. This autoencoder have the same architecture as DCGAN above. The only difference is the additional fully-connected layer at the top of the encoder, which projects output from convolutional layer to selected latent size.
 
-![](images/DCAE.PNG)
+* embedding size = 40 is enough for a good-quality reconstruction
+* autoencoder have great denoising properties
+* easier and more stable to train then GAN's
+
+![](images/DCAE.png)
 
 * [notebook with Deep Convolutional Autoencoder](notebooks/5_DC_Autoencoder.ipynb)
 
