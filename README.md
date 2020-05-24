@@ -1,5 +1,5 @@
 # pixel_character_generator
- Generating retro pixel game characters with Generative Adversarial Networks. Dataset included.
+ Generating retro pixel game characters with Generative Adversarial Networks. Dataset "TinyHero" included.
  
  ![](images/58.png)  ![](images/58_2.png)  ![](images/58_3.png)  ![](images/58_4.png)
  ![](images/212.png)  ![](images/212_2.png)  ![](images/212_3.png)  ![](images/212_4.png)
@@ -10,11 +10,11 @@
  ![](images/586.png)  ![](images/586_2.png)  ![](images/586_3.png)  ![](images/586_4.png)
 
  
- # Dataset
+ # Dataset TinyHero
  
  ![](images/random_chars.png)
  
-Dataset includes 64x64 retro-pixel character.All characters were generated with [Universal LPC spritesheet by makrohn](https://github.com/makrohn/Universal-LPC-spritesheet/tree/7040e2fe85d2cb1e8154ec5fce382589d369bdb8). Each character in the dataset was randomly generated including: sex, body type, skin color and equipment with LPC spritesheet with 4 different angles view. 
+Dataset TinyHero includes 64x64 retro-pixel character. All characters were generated with [Universal LPC spritesheet by makrohn](https://github.com/makrohn/Universal-LPC-spritesheet/tree/7040e2fe85d2cb1e8154ec5fce382589d369bdb8). Each character in the dataset was randomly generated including: sex, body type, skin color and equipment with LPC spritesheet with 4 different angles view. 
 
 | Image sixe | Dataset size  | Source          | Download |
 |------------|---------------|-----------------|----------|
